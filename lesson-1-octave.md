@@ -3,7 +3,7 @@ Harmonie-lehre
 # was ist ein ton ?
 
 ## praxis 
-nimm ein gummeli, schneide es durch und spann es zwischen deine zähne. nun kannst du diese gerade künstlich erstellte saite anzupfen. es ertönt ein ton. 
+nimm ein gummeli, schneide es durch und spann es zwischen deine zähne und deine finger. nun kannst du diese gerade künstlich erstellte saite anzupfen. es ertönt ein ton. 
 wenn du die saite locker gespannt hast ertönt ein tiefer ton. Spanne die saite nun an der ton wird höher! wenn du die saite genug spannst kann es sein das der [selbe tiefe ton nun höher ertönt](###oktave)(oktave). sei aber vorsichtig beim anspannen des gummelis, sonst reisst es noch xD. 
 
 
