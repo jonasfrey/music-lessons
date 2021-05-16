@@ -20,11 +20,21 @@ hör dir dieses audio an. Es werden immer 2 töne nacheinander abgespielt danach
 Your browser does not support the audio element.
 </audio>
 
-## lösung
+<input type="radio">
+
 <button onclick="document.querySelector('#asdf').style.display = 'block'">lösung anzeigen</button>
 
 <div style="display:none" id="asdf">
-sd
-afsd
-asf
+<h2>lösung</h2>
+
+1 nein <br>
+2 nein <br>
+3 nein <br>
+4 oktave <br>
+5 nein <br>
+6 oktave <br>
+7 nein <br>
+8 komische audio fehler<br>
+9 komische audio fehler<br>
+usw komische audio fehler<br>
 </div>
