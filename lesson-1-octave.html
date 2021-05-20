@@ -17,6 +17,9 @@
         <meta property="og:image" content="https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A0a6eb6ba678b209ac1c05e4f124bf965b59024c1ee34d7373af48a46%2BIMAGE_THUMB_POSTCARD_TINY%2BIMAGE_THUMB_POSTCARD_TINY.1">
         
         <style>
+            img{
+                width: 100%;
+            }
             *{
   margin:0;
   padding:0;
@@ -25,12 +28,24 @@
   line-height:160%;
   font-family:arial;
 }
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 1rem;
+}
+button{
+    border:1px solid #ddd;
+    background-color: rgba(22,22,22,0.2);
+    padding:1rem;
+}
+button:hover{
+    background-color: rgba(22,22,22,0.8);
+}
 body{
-  max-width:555px;
-  margin:0 auto;
+
+    max-width:555px;
+    margin:0 auto;
 }
 p{
-  max-width:500px;
+  
   font-size:20px;
 
 }
@@ -175,6 +190,22 @@ td, th{
 
 // }
 
+document.body.onclick = function(e){
+    if(event.target.tagName == "IMG"){
+        if(event.target.style.position == "relative"){
+            event.target.style.position = "fixed";
+            event.target.style.top = "0"
+            event.target.style.left = "0"
+            event.target.style.zIndex = "10"
+        }else{
+            event.target.style.position = "relative";
+            event.target.style.top = "auto"
+            event.target.style.left = "auto"
+            event.target.style.zIndex = "0"
+
+        }
+    }
+}
 
         </script>
     </body>
